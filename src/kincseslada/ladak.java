@@ -17,7 +17,7 @@ public class ladak {
 
     public void kezdet() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("A három küzül válasz,de egy számot adj meg: ");
+        System.out.println("A három közül válasz,de egy számot adj meg: ");
         int szam = sc.nextInt();
 
         if (szam == ladak.length) {
@@ -31,5 +31,6 @@ public class ladak {
                 }
             }
         }
+
     }
 }
